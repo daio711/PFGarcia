@@ -1,0 +1,206 @@
+
+
+
+/*en comun con todas las paginas banner, navegacion y footer.*/
+
+/*NAVEGACION */
+
+   
+   ul {
+
+    text-decoration:none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+    background-color: orange;
+    display: flex;
+    border-style: inset;
+    justify-content: space-around;
+    
+ 
+}
+
+li {
+    text-decoration: none;
+}
+
+.border {
+    text-align: center;
+    text-decoration:none;
+  }
+
+  
+nav {
+    text-decoration: none;
+}
+  
+
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+        color: white;
+        
+    
+}
+
+.banner {
+
+    image-orientation: from-image;
+    height: auto;
+    width: auto;
+    max-height: 1000px;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    border-style: inset;
+
+   }
+
+
+
+
+
+/*home*/
+
+div img {
+    
+    image-orientation: from-image;
+    height: auto;
+    width: auto;
+    max-height: 1000px;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+   }
+
+   .servicios-flex {
+    image-orientation: from-image;
+    height: auto;
+    width: auto;
+    max-height: 1000px;
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+
+   }
+
+
+
+
+/* NOVEDADES */
+
+.promo{
+
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 500px;
+    position: relative;
+    left: 15rem;
+    image-orientation: from-image;
+    border-style: inset;
+
+     border-top:solid 5px black;
+     border-right:solid 10px black;
+     border-bottom:solid 7px black;
+     border-left:solid 12px black;
+        
+
+    
+    }
+
+
+
+hr { 
+    position: relative; 
+    top: 20px; 
+    border: none; 
+    height: 12px; 
+    background: orange; 
+    margin-bottom: 50px; 
+} 
+
+
+
+/* footer*/
+
+
+
+.redes{
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+
+   
+} 
+.redes a {
+   
+    width: 60px;
+    height: 60px;
+   
+}
+
+
+/* nosotros */
+
+.textonosotros{
+
+    margin: auto;
+    padding: 40px 40px 40px 40px;
+}
+
+h1 { 
+    
+text-align: center;
+color: white;
+font-weight: 600;
+background-color: orange;
+
+}
+
+h2 {
+
+    text-align: center;
+    color: orange;
+    font-weight: 500;
+}
+
+h3 {
+    text-align: center;
+    color: orange;
+    font-weight: bolder;
+}
+
+h4 {color: white;
+background-color: orange;}
+
+
+/* contacto*/
+
+.formulario{
+
+    text-align: center;
+   
+        
+}
+
+label{
+    display: block;
+}
+
+button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*mapa de servicio*/
+
+iframe{
+    margin-right: auto;
+    margin-left: auto;
+}

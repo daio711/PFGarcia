@@ -21,25 +21,14 @@
  
 }
 
-li {
-    text-decoration: none;
-}
 
-.border {
-    text-align: center;
-    text-decoration:none;
-  }
-
-  
-nav {
-    text-decoration: none;
-}
   
 
 
 a:link, a:visited, a:active {
-    text-decoration:none;
-        color: white;
+   
+   text-decoration:none;
+   color: white;
         
     
 }

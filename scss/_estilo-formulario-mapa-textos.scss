@@ -1,0 +1,75 @@
+
+/* pagina nosotros */
+
+.textonosotros{
+
+    margin: auto;
+    padding: 40px 40px 40px 40px;
+
+    h1 { 
+    
+        text-align: center;
+        color: $blanco;
+        font-weight: 600;
+        background-color: $naranja;
+        
+      }
+        
+    h2 {
+        
+            text-align: center;
+            color: $naranja;
+            font-weight: 500;
+        }
+        
+    h3 {
+            text-align: center;
+            color: $naranja;
+            font-weight: bolder;
+        }
+        
+    h4 {color: $blanco;
+        background-color: $naranja;}
+        
+}
+
+/*texto de inicio */
+
+.parrafo-inicio {
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+
+    }
+
+
+
+
+/*pagina mapa de servicio*/
+
+.mapa {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+/* pagina contacto*/
+
+.formulario{
+
+    text-align: center;
+
+    label{
+        display: block;   
+    }
+
+    button{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+

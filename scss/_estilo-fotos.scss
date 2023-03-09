@@ -1,0 +1,87 @@
+/* estilo de hr */
+
+hr { 
+    position: relative; 
+    top: 20px; 
+    border: none; 
+    height: 12px; 
+    background: $naranja; 
+    margin-bottom: 50px; 
+} 
+
+
+
+/*pagina de inicio*/
+
+div img {
+    
+    image-orientation: from-image;
+    height: auto;
+    width: auto;
+    max-height: 50%;
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+   }
+
+   /*foto de inicio con efecto */
+   
+   .inicio-2 {
+   
+    margin: auto;
+   
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 0s;
+ 
+          
+ }
+.inicio-2 img {
+
+    height: 70%;
+    width: 70%;
+ }
+
+    
+ 
+ @keyframes un_efecto {
+    0%{ width: 80%; }
+    
+
+    50%{ width: 90%;
+      background-color: white; }
+  
+    100%{ width: 100%;
+      background-color: E8C023;}
+ }
+ 
+
+
+
+
+
+
+/* pagina de novedades */
+
+.promo{
+
+   
+    max-height: 80%;
+    max-width: 80%;
+    position: relative;
+    margin-top: 30px;
+    image-orientation: from-image;
+    border-style: inset;
+    border-top:solid 5px $negro;
+    border-right:solid 10px $negro;
+    border-bottom:solid 7px $negro;
+    border-left:solid 12px $negro;
+
+     }
+
+
+    
+
+     

@@ -1,7 +1,7 @@
 {
-  "name": "proyectoonesass",
+  "name": "proyectocoder",
   "version": "1.0.0",
-  "description": "proyecto con sass",
+  "description": "proyecto final coder",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

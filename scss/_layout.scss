@@ -19,8 +19,7 @@ header {
   nav {
     justify-content: space-around;
     width: $ancho;
-    margin: 20px auto;
-    max-width: 1300px;
+    margin: 0 auto;
     background-color: $naranja;
     font-size: 20px;
 
@@ -29,6 +28,7 @@ header {
 
       li {
         float: left;
+        
 
         a {
           color: $blanco;
@@ -64,13 +64,16 @@ header {
 
   header nav ul li {
     float: none;
+    display: inline-block;
   }
 
   header nav ul {
-    @include flex-center-nonestyle;
+    display: flex;
     flex-direction: column;
     overflow: hidden;
-   
+    list-style: none;
+    align-items: center;
+
   }
 }
  
@@ -88,6 +91,7 @@ header {
   max-height: 100%;
   max-width: 100%;
   position: relative;
+  margin: 3px;
 
 
   .redsocial {

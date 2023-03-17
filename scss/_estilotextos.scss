@@ -1,0 +1,82 @@
+.texto {
+  text-align: center;
+  color: $naranja;
+  font-weight: 500;
+
+}
+
+
+
+
+
+/* pagina nosotros */
+.textonosotros {
+    margin: auto;
+    padding: 40px 40px 40px 40px;
+  }
+  
+  .textonosotros h1 {
+    text-align: center;
+    color: $blanco;
+    font-weight: 500;
+    background-color: $naranja;
+  }
+  
+  .textonosotros h2 {
+    @extend .texto;
+  }
+  
+  .textonosotros h3 {
+    @extend .texto;
+  }
+  
+  .textonosotros h4 {
+    color: $blanco;
+    background-color: #E8C023;
+  }
+  
+  /*texto de inicio */
+  .parrafo-inicio {
+    color: $naranja;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    padding: $padding;
+  }
+  
+  /*pagina mapa de servicio*/
+  
+  iframe {
+    width: 70vw;
+    height: 70vw;
+  }
+  
+  .mapa {
+  
+    text-align: center;
+  }
+  
+  /* pagina contacto*/
+  .formulario {
+    padding: $padding;
+    text-align: center;
+    border-top: solid 5px $negro;
+    border-left: solid 5px $negro;
+    border-right: solid 5px $negro;
+    border-bottom: solid 5px $negro;
+  }
+  
+  .formulario label {
+    display: block;
+  }
+  
+  .formulario button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  button {
+    color: $blanco;
+    background-color: $naranja;
+  }

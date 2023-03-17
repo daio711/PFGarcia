@@ -11,8 +11,7 @@ header {
 header nav {
   justify-content: space-around;
   width: 100%;
-  margin: 20px auto;
-  max-width: 1300px;
+  margin: 0 auto;
   background-color: #E8C023;
   font-size: 20px;
 }
@@ -43,13 +42,14 @@ header nav ul li a span {
 @media only screen and (max-width: 800px) {
   header nav ul li {
     float: none;
+    display: inline-block;
   }
   header nav ul {
     display: flex;
-    justify-content: center;
-    list-style: none;
     flex-direction: column;
     overflow: hidden;
+    list-style: none;
+    align-items: center;
   }
 }
 /*fin de navegacion */
@@ -61,6 +61,7 @@ header nav ul li a span {
   max-height: 100%;
   max-width: 100%;
   position: relative;
+  margin: 3px;
 }
 .piedepagina .redsocial {
   display: flex;
@@ -94,19 +95,6 @@ header nav ul li a span {
   }
 }
 /*fin de footer*/
-/*banner*/
-.banner {
-  image-orientation: from-image;
-  height: auto;
-  width: auto;
-  max-height: 100%;
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-  border-style: inset;
-}
-
-/* fin de banner */
 /* estilo de hr */
 hr {
   position: relative;

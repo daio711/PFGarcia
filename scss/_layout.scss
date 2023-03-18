@@ -4,7 +4,7 @@
   list-style: none;
 }
 
-$vista:mobile;
+
 
 
 /*menu de navegacion*/
@@ -23,12 +23,40 @@ header {
     background-color: $naranja;
     font-size: 20px;
 
+    @include tablet {
+
+      background-color: $negro;
+      font-size: 18px;
+    }
+
+    @include mobile {
+
+      background-color: $negro;
+      font-size: 15px;
+    }
+
     ul {
       @include flex-center-nonestyle;
 
+      @include mobile {
+
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        list-style: none;
+        align-items: center;
+
+      }
+
+
       li {
         float: left;
-        
+
+        @include tablet {
+          float: none;
+          display: inline-block;
+        }
+
 
         a {
           color: $blanco;
@@ -51,39 +79,10 @@ header {
   }
 }
 
-
 /*fin menu de navegacion*/
 
-
-/* navegador para mobile*/
-
-
-
-
-@media only screen and (max-width: 800px) {
-
-  header nav ul li {
-    float: none;
-    display: inline-block;
-  }
-
-  header nav ul {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    list-style: none;
-    align-items: center;
-
-  }
-}
- 
-
-/*fin de navegacion */
-
 /*footer*/
 
-
-/*footer*/
 
 .piedepagina {
   display: flex;
@@ -91,17 +90,14 @@ header {
   max-height: 100%;
   max-width: 100%;
   position: relative;
-  margin: 3px;
-
 
   .redsocial {
     display: flex;
     justify-content: center;
 
-
-    .a {
+    a {
       text-decoration: none;
-      color: #E8C023;
+      color: $naranja;
       width: 100px;
       height: 100px;
       font-size: 50px;
@@ -109,29 +105,28 @@ header {
       margin-right: 10px;
       transition: all 300ms ease;
 
+      @include mobile {
+
+        font-size: 30px;
+        color: $negro;
+      }
+
+      @include tablet {
+
+        font-size: 30px;
+        color: $negro;
+
+      }
 
       &:hover {
         color: red;
       }
-
-
     }
   }
 }
 
 
-/* footer para mobile*/
-@media only screen and (max-width: 800px) {
-  .redsocial a {
-    text-decoration: none;
-    color: #E8C023;
-    width: 100px;
-    height: 100px;
-    font-size: 10px;
-    line-height: 75px;
-    margin-right: 10px;
-    transition: all 300ms ease;
-  }
-}
+
+
 
 /*fin de footer*/

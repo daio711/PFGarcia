@@ -58,14 +58,7 @@ header {
 
 
       li {
-        float: left;
-
-        @include tablet {
-          float: none;
-          display: inline-block;
-        }
-
-
+      
         a {
           color: $blanco;
           padding: $padding;

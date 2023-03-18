@@ -50,15 +50,6 @@ header nav ul {
     align-items: center;
   }
 }
-header nav ul li {
-  float: left;
-}
-@media screen and (max-width: 768px) {
-  header nav ul li {
-    float: none;
-    display: inline-block;
-  }
-}
 header nav ul li a {
   color: white;
   padding: 20px;

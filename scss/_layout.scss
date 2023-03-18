@@ -48,6 +48,14 @@ header {
 
       }
 
+      @include tablet {
+
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        list-style: none;
+        align-items: center; }
+
 
       li {
         float: left;

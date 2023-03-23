@@ -17,7 +17,7 @@ header {
   width: $ancho;
 
   nav {
-    justify-content: space-around;
+    justify-content: center;
     width: $ancho;
     margin: 0 auto;
     background-color: $naranja;
@@ -33,6 +33,7 @@ header {
 
       background-color: $negro;
       font-size: 15px;
+      
     }
 
     ul {
@@ -72,7 +73,7 @@ header {
           }
 
           span {
-            margin-right: 10px;
+            margin-right: 8px;
           }
         }
       }

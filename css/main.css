@@ -9,7 +9,7 @@ header {
   width: 100%;
 }
 header nav {
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   margin: 0 auto;
   background-color: #E8C023;
@@ -61,7 +61,7 @@ header nav ul li a:hover {
   color: red;
 }
 header nav ul li a span {
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 /*fin menu de navegacion*/
@@ -131,8 +131,14 @@ div img {
   animation-name: un_efecto;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-delay: 0s;
+}
+@media screen and (max-width: 700px) {
+  .inicio-2 {
+    margin: auto;
+    animation: none;
+  }
 }
 
 .inicio-2 img {
@@ -142,14 +148,14 @@ div img {
 
 @keyframes un_efecto {
   0% {
-    width: 80%;
+    width: 30%;
   }
   50% {
-    width: 90%;
+    width: 40%;
     background-color: white;
   }
   100% {
-    width: 100%;
+    width: 50%;
     background-color: #E8C023;
   }
 }
